@@ -1,10 +1,8 @@
 import React from "react";
 import "./Countries.css";
 import NavBar from "../NavBar/NavBar";
-import img4 from "../../../public/img/g2.png";
-// import img4 from "../../../public/img/vivek6.png";
+import img4 from "../../../public/img/g2.webp";
 import Footer from "../Footer/Footer";
-// import CountryService from "./countriesServices/CountryService";
 import { ScrollRestoration } from "react-router-dom";
 import OurCenter from "../MainPage/OurCenter";
 

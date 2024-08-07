@@ -2,12 +2,12 @@ import React from "react";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
-import diya from '../../../public/img/diva.jpeg'
-import anirudh from '../../../public/img/anirudh.jpeg'
-import Kunwar from '../../../public/img/kunwar.jpeg'
-import kanav from '../../../public/img/kanav.jpeg'
-import Tanmay from '../../../public/img/tanmay.jpg'
-// import sn3 from '../../../public/img/testimonial-3.jpg'
+import diya from '/img/diva.webp'
+import anirudh from '/img/anirudh.webp'
+import Kunwar from '/img/kunwar.webp'
+import kanav from '/img/kanav.webp'
+import Tanmay from '/img/tanmay.webp'
+// import sn3 from '/img/testimonial-3.jpg'
 
 const Testimonial = () => {
   return (
@@ -24,6 +24,8 @@ const Testimonial = () => {
                 items={1}
                 autoPlay
                 smartSpeed={1000}
+                lazyLoad={true}
+                lazyContent={true}
                 loop
                 navText={[
                   '<i class="bi bi-arrow-left"></i>',

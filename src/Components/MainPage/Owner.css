@@ -23,7 +23,7 @@
 }
 
 .card::after {
-    background-image: url(../../../public/img/ball.png);
+    background-image: url(/img/ball.webp);
     background-size: cover;
     background-position: -10% -110%;
     border-radius: 0 0 7.5rem 7.5rem;
@@ -88,7 +88,7 @@
         border-radius: 10px;
     }
 
-    .card::after{
+    .card::after {
         display: none;
     }
 
@@ -109,7 +109,7 @@
 
 
 .owner-img {
-    background-image: url(../img/team-1.jpg);
+    background-image: url(/img/team-1.webp);
     flex: 1;
     height: 484px;
     border-radius: 0 10px 10px 0;

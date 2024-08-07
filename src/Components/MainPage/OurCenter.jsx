@@ -1,10 +1,10 @@
 import React from "react";
-import sn1 from "../../../public/img/gurugram.jpeg";
-import sn2 from "../../../public/img/delhi.jpg";
-import sn3 from "../../../public/img/spain.jpeg";
-import sn4 from "../../../public/img/mzn.jpeg";
-import campus1 from "../../../public/img/campus1.jpg"
-import campus3 from "../../../public/img/campus3.jpg"
+import sn1 from "/img/gurugram.webp";
+import sn2 from "/img/delhi.webp";
+import sn3 from "/img/spain.webp";
+import sn4 from "/img/mzn.webp";
+import campus1 from "/img/campus1.webp"
+import campus3 from "/img/campus3.webp"
 import WestOutlinedIcon from "@mui/icons-material/WestOutlined";
 import EastIcon from "@mui/icons-material/East";
 

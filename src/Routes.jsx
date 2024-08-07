@@ -84,31 +84,31 @@ const router = createBrowserRouter([
   ////////////Services Pages///////////////
 
   {
-    path: "/services/v1",
+    path: "/services/Join-Our-Academy",
     element: <V1 />,
   },
 
   {
-    path: "/services/v2",
+    path: "/services/Register-For-Tennis-&-Education",
     element: <V2 />,
   },
 
   {
-    path: "/services/v3",
+    path: "/services/Scholarship-in-USA-&-Europe",
     element: <V3 />,
   },
 
   {
-    path: "/services/v4",
+    path: "/services/Tennis-Camp-in-Spain",
     element: <V4 />,
   },
 
   {
-    path: "/services/v5",
+    path: "/services/Career-Counseling",
     element: <V5 />,
   },
   {
-    path: "/services/v6",
+    path: "/services/Book-a-course",
     element: <V6 />,
   },
 ]);

@@ -2,12 +2,12 @@ import React from "react";
 import ServicesComp from "./ServicesComp";
 
 const list = [
-  { id: 1, name: "Join Our Academy" },
-  { id: 2, name: "Register For Tennis & Education" },
-  { id: 3, name: "Scholarship in USA & Europe" },
-  { id: 4, name: "Tennis Camp in Spain" },
-  { id: 5, name: "Career Counseling" },
-  { id: 6, name: "Book a course" },
+  { id: 1, linkdesc: "Join-Our-Academy", name: "Join Our Academy" },
+  { id: 2, linkdesc: "Register-For-Tennis-&-Education", name: "Register For Tennis & Education" },
+  { id: 3, linkdesc: "Scholarship-in-USA-&-Europe", name: "Scholarship in USA & Europe" },
+  { id: 4, linkdesc: "Tennis-Camp-in-Spain", name: "Tennis Camp in Spain" },
+  { id: 5, linkdesc: "Career-Counseling", name: "Career Counseling" },
+  { id: 6, linkdesc: "Book-a-course", name: "Book a course" },
 ];
 
 const Services = () => {
@@ -25,7 +25,7 @@ const Services = () => {
         </div>
         <div className="row" style={{ rowGap: "30px" }}>
           {list.map((e) => (
-            <ServicesComp id={e.id} name={e.name} />
+            <ServicesComp id={e.id} linkdesc={e.linkdesc} name={e.name} />
           ))}
         </div>
       </div>

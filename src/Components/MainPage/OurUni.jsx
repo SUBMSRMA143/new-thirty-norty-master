@@ -1,6 +1,8 @@
 import React from 'react'
-import cli1 from '../../../public/img/cli1.png'
-import cli2 from '../../../public/img/cli2.jpg'
+import cli1 from '/img/cli1.webp'
+// import cli1 from '../../../public/img/cli1.webp'
+import cli2 from '/img/cli2.webp'
+// import cli2 from '../../../public/img/cli2.webp'
 import './OurUni.css'
 
 const OurUni = () => {
@@ -20,15 +22,15 @@ const OurUni = () => {
                 </div>
                 <div className="row">
 
-                    <div class="col-lg-6 col-md-6 col-6">
-                        <div class="client-logo education-logo">
-                            <img src={cli1} class="img-fluid" alt="" />
+                    <div className="col-lg-6 col-md-6 col-6">
+                        <div className="client-logo education-logo">
+                            <img src={cli1} className="img-fluid" alt="" />
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-md-6 col-6">
-                        <div class="client-logo education-logo">
-                            <img src={cli2} class="img-fluid" alt="" />
+                    <div className="col-lg-6 col-md-6 col-6">
+                        <div className="client-logo education-logo">
+                            <img src={cli2} className="img-fluid" alt="" />
                         </div>
                     </div>
 

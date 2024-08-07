@@ -1,7 +1,6 @@
 import React from 'react'
 import NavBar from '../NavBar/NavBar'
 import Footer from '../Footer/Footer'
-import About from '../MainPage/About'
 import { FloatingWhatsApp } from 'react-floating-whatsapp'
 import { ScrollRestoration } from 'react-router-dom'
 import OurCenter from '../MainPage/OurCenter'

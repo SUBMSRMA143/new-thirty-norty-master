@@ -61,7 +61,7 @@ const NavBar = ({ page }) => {
         }}
       >
         <Link to="/" className="navbar-brand ms-lg-5">
-          <img src={sn1} className="nav-logo-thirty40" />
+          <img src={sn1} alt="logo" className="nav-logo-thirty40" />
         </Link>
         <button
           className="navbar-toggler collapsed"
@@ -90,13 +90,13 @@ const NavBar = ({ page }) => {
               Global
             </Link>
             <Link
-              to="/Services/v1"
+              to="/Services/Join-Our-Academy"
               className={`nav-item nav-link ${page == "Tennis Academies" ? "active" : ""
                 }`}
             >
               Tennis Academies
             </Link>
-            <Link to="/Services/v2" className="nav-item nav-link">
+            <Link to="/Services/Register-For-Tennis-&-Education" className="nav-item nav-link">
               Career Counselling
             </Link>
 

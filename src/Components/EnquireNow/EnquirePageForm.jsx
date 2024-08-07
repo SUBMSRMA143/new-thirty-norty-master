@@ -1,5 +1,5 @@
 import React from "react";
-import sn3 from "../../../public/img/spain.jpeg";
+import sn3 from "/img/spain.webp";
 
 const EnquirePageForm = () => {
   return (

@@ -110,7 +110,7 @@
 }
 
 @media (max-width: 991.98px) {
-    .navbar-light .navbar-nav .nav-link  {
+    .navbar-light .navbar-nav .nav-link {
         margin-left: 0;
         padding: 10px 0;
     }
@@ -268,7 +268,7 @@
 }
 
 .product-carousel .owl-nav .owl-prev,
-.product-carousel .owl-nav .owl-next{
+.product-carousel .owl-nav .owl-next {
     position: relative;
     margin: 0 5px;
     width: 55px;
@@ -288,7 +288,7 @@
 }
 
 .bg-offer {
-    background: url(../../public/img/offer.jpg) top right no-repeat;
+    background: url(/img/offer.webp) top right no-repeat;
     background-size: cover;
     background-repeat: repeat;
     background-position: 40% 90%;
@@ -315,7 +315,7 @@
 }
 
 .price-carousel .owl-nav .owl-prev,
-.price-carousel .owl-nav .owl-next{
+.price-carousel .owl-nav .owl-next {
     position: relative;
     margin: 0 5px;
     width: 45px;
@@ -395,7 +395,7 @@
 }
 
 .bg-testimonial {
-    background: url(../../public/img/testimonial.jpg) top left no-repeat;
+    background: url(/img/testimonial.webp) top left no-repeat;
     /* background-size: cover; */
 }
 
@@ -430,7 +430,7 @@
 }
 
 .testimonial-carousel .owl-item img {
-    width: 100px;
+    width: 100px !important;
     height: 100px;
 }
 

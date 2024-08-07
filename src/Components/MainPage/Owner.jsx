@@ -1,5 +1,5 @@
 import React from "react";
-import arnaavProfile from '../../../public/img/owner.jpg'
+import arnaavProfile from '/img/owner.webp'
 import './Owner.css'
 
 const Owner = () => {
@@ -21,7 +21,7 @@ const Owner = () => {
             <div className="try text-center p-4 px-5 d-flex justify-between-center align-items-center">
               <div className="card">
                 <div className="img">
-                  <img src={arnaavProfile} />
+                  <img alt="arnav alok goel" src={arnaavProfile} />
                 </div>
                 <div className="infos">
                   <div className="name">

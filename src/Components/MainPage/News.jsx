@@ -1,13 +1,13 @@
 import React from "react";
-import sn1 from "../../../public/img/n1.jpeg";
-import sn2 from "../../../public/img/n2.jpeg";
-import sn3 from "../../../public/img/n3.jpeg";
-import sn4 from "../../../public/img/n4.jpeg";
-import sn5 from "../../../public/img/n5.jpeg";
-import sn6 from "../../../public/img/n6.jpeg";
-import sn7 from "../../../public/img/n7.jpeg";
-import sn8 from "../../../public/img/n8.jpeg";
-import sn9 from "../../../public/img/n9.jpeg";
+import sn1 from "/img/n1.webp";
+import sn2 from "/img/n2.webp";
+import sn3 from "/img/n3.webp";
+import sn4 from "/img/n4.webp";
+import sn5 from "/img/n5.webp";
+import sn6 from "/img/n6.webp";
+import sn7 from "/img/n7.webp";
+import sn8 from "/img/n8.webp";
+import sn9 from "/img/n9.webp";
 
 import WestOutlinedIcon from "@mui/icons-material/WestOutlined";
 import EastIcon from "@mui/icons-material/East";
@@ -59,31 +59,31 @@ const News = () => {
           grabCursor={true}
           modules={[Navigation, Pagination, Autoplay]}
           className="myswiper3"
-          style={{height:"250px"}}
+          style={{ height: "250px" }}
         >
           <SwiperSlide>
-            <img src={sn1} style={{ height: "200px", marginBottom: "10px" }} />
+            <img alt="news" src={sn1} style={{ height: "200px", marginBottom: "10px" }} />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={sn2} style={{ height: "200px", marginBottom: "10px" }} />
+            <img alt="news" src={sn2} style={{ height: "200px", marginBottom: "10px" }} />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={sn3} style={{ height: "200px", marginBottom: "10px" }} />
+            <img alt="news" src={sn3} style={{ height: "200px", marginBottom: "10px" }} />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={sn4} style={{ height: "200px", marginBottom: "10px" }} />
+            <img alt="news" src={sn4} style={{ height: "200px", marginBottom: "10px" }} />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={sn5} style={{ height: "200px", marginBottom: "10px" }} />
+            <img alt="news" src={sn5} style={{ height: "200px", marginBottom: "10px" }} />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={sn6} style={{ height: "200px", marginBottom: "10px" }} />
+            <img alt="news" src={sn6} style={{ height: "200px", marginBottom: "10px" }} />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={sn7} style={{ height: "200px", marginBottom: "10px" }} />
+            <img alt="news" src={sn7} style={{ height: "200px", marginBottom: "10px" }} />
           </SwiperSlide>
           <SwiperSlide>
-            <img src={sn8} style={{ height: "200px", marginBottom: "10px" }} />
+            <img alt="news" src={sn8} style={{ height: "200px", marginBottom: "10px" }} />
           </SwiperSlide>
         </Swiper>
       </div>

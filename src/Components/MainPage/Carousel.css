@@ -18,7 +18,7 @@
     width: 100vw;
     height: 100%;
 
-    background-image: url("../../../public/img/hero3.jpg");
+    background-image: url("../../../public/img/hero3.webp");
     background-position: 0 50%;
     background-size: cover;
 }
@@ -26,7 +26,7 @@
 .hero-page-img-2 {
     width: 100vw;
     height: 100%;
-    background-image: url("../../../public/img/hero5.jpg");
+    background-image: url("../../../public/img/hero5.webp");
     background-position: 0% 70%;
     background-size: cover;
 }
@@ -35,7 +35,7 @@
     width: 100vw;
     height: 100%;
 
-    background-image: url("../../../public/img/bgt40.jpg");
+    background-image: url("../../../public/img/bgt40.webp");
     background-position: 0% 10%;
     background-size: cover;
 }
@@ -45,7 +45,7 @@
     width: 100vw;
     height: 100%;
 
-    background-image: url("../../../public/img/Hero.jpg");
+    background-image: url("../../../public/img/Hero.webp");
     background-position: 0% 30%;
     background-size: cover;
 } */
