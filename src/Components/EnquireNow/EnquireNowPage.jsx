@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import sn1 from "../../../public/img/gurugram.jpeg";
-import sn2 from "../../../public/img/delhi.jpg";
-import sn3 from "../../../public/img/spain.jpeg";
-import sn4 from "../../../public/img/mzn.jpeg";
-import campus1 from "../../../public/img/campus1.jpg";
-import campus3 from "../../../public/img/campus3.jpg";
+import sn1 from "/img/gurugram.webp";
+import sn2 from "/img/delhi.webp";
+import sn3 from "/img/spain.webp";
+import sn4 from "/img/mzn.webp";
+import campus1 from "/img/campus1.webp";
+import campus3 from "/img/campus3.webp";
 
 const EnquireNowPage = () => {
   return (
@@ -38,6 +38,7 @@ const EnquireNowPage = () => {
               <Link to={"/EnquireNow/Delhi"}>
                 <img
                   src={sn2}
+                  alt="delhi campus"
                   style={{
                     objectFit: "cover",
 
@@ -52,6 +53,7 @@ const EnquireNowPage = () => {
               <Link to={"/EnquireNow/Spain"}>
                 <img
                   src={sn3}
+                  alt="spain campus"
                   style={{
                     objectFit: "cover",
 
@@ -66,6 +68,7 @@ const EnquireNowPage = () => {
               <Link to={"/EnquireNow/Muzaffarnagar"}>
                 <img
                   src={sn4}
+                  alt="muzaffarnagar campus"
                   style={{
                     objectFit: "cover",
 
@@ -82,6 +85,7 @@ const EnquireNowPage = () => {
               <Link to={"/EnquireNow/Belagavi"}>
                 <img
                   src={campus1}
+                  alt="belagavi campus"
                   style={{
                     objectFit: "cover",
 
@@ -96,6 +100,7 @@ const EnquireNowPage = () => {
               <Link to={"/EnquireNow/Mumbai"}>
                 <img
                   src={campus3}
+                  alt="mumbai campus"
                   style={{
                     objectFit: "cover",
 
