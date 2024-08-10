@@ -59,7 +59,7 @@ const App = () => {
                   "telephone": "+91-7892650335",
                   "email": "info@thirty40.in",
                   "areaServed": ["USA", "INDIA", "EUROPE"]
-                  "contactType": "Customer Service"
+                  "contactType": "Customer Service",
           }`
           }
         </script>

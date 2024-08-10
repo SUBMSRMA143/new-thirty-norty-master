@@ -1,5 +1,5 @@
 import React, { lazy, Suspense } from "react";
-// import ServicesComp from "./ServicesComp";
+import ServicesComp from "./ServicesComp";
 
 const list = [
   { id: 1, linkdesc: "Join-Our-Academy", name: "Join Our Academy" },
@@ -10,7 +10,7 @@ const list = [
   { id: 6, linkdesc: "Book-a-course", name: "Book a course" },
 ];
 
-const ServicesComp = lazy(() => import("./ServicesComp"));
+// const ServicesComp = lazy(() => import("./ServicesComp"));
 
 const Services = () => {
   return (
@@ -26,11 +26,9 @@ const Services = () => {
           </h2>
         </div>
         <div className="row" style={{ rowGap: "30px" }}>
-          <Suspense fallback={<h3>Content Loading...</h3>}>
-            {list.map((e) => (
-              <ServicesComp key={e.id} id={e.id} linkdesc={e.linkdesc} name={e.name} />
-            ))}
-          </Suspense>
+          {list.map((e) => (
+            <ServicesComp key={e.id} id={e.id} linkdesc={e.linkdesc} name={e.name} />
+          ))}
         </div>
       </div>
     </div>
