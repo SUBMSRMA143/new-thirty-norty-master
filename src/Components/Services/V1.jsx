@@ -1,13 +1,14 @@
-import React from 'react'
+import React, { Suspense, lazy } from 'react'
 import NavBar from '../NavBar/NavBar'
-import Footer from '../Footer/Footer'
 import { FloatingWhatsApp } from 'react-floating-whatsapp'
 import { ScrollRestoration } from 'react-router-dom'
 import OurCenter from '../MainPage/OurCenter'
 import V1Services from './V1Services'
-import YouTube from '../MainPage/Youtube'
-import Instagram from '../MainPage/Instagram'
-import Owner from '../MainPage/Owner'
+
+const Youtube = lazy(() => import("../MainPage/Youtube"));
+const Instagram = lazy(() => import("../MainPage/Instagram"));
+const Footer = lazy(() => import("../Footer/Footer"));
+const Owner = lazy(() => import("../MainPage/Owner"));
 
 const V1 = () => {
   return (
@@ -17,10 +18,12 @@ const V1 = () => {
       {/* <About/> */}
       <V1Services />
       <OurCenter />
-      <YouTube />
-      <Instagram />
-      <Owner />
-      <Footer />
+      <Suspense>
+        <Youtube />
+        <Instagram />
+        <Owner />
+        <Footer />
+      </Suspense>
       <FloatingWhatsApp />
       <ScrollRestoration />
     </>
