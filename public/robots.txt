@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /EnquireNow/
+
+Sitemap: https://new-thirty-forty-master.vercel.app/sitemap.xml
