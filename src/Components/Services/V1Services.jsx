@@ -69,11 +69,11 @@ const V1Services = () => {
           style={{ maxWidth: 600 + "px" }}
         >
           <h6 className="text-primary text-uppercase">Why choose,</h6>
-          <h1 className="display-5 text-uppercase mb-0">Thirty40</h1>
+          <h2 className="display-5 text-uppercase mb-0">Thirty40</h2>
         </div>
         <div class="row g-lg-5 py-lg-5 ">
           <div class="col-lg-6" >
-            <h1>We are based in</h1>
+            <h2>We are based in</h2>
             <h3>India, Germany, Czech Republic, Spain, USA, Italy, Canada and France</h3>
           </div>
           <div class="col-lg-6 py-5 pt- pt-lg-0">
@@ -95,9 +95,9 @@ const V1Services = () => {
           style={{ maxWidth: 600 + "px" }}
         >
           <h6 className="text-primary text-uppercase">Services</h6>
-          <h1 className="display-5 text-uppercase mb-0">
+          <h2 className="display-5 text-uppercase mb-0">
             Our Excellent Tennis Services
-          </h1>
+          </h2>
         </div>
         <div className="row g-5">
           {List.map((e) => (

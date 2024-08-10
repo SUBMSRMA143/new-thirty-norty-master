@@ -37,7 +37,7 @@ const V3 = () => {
             style={{ maxWidth: 600 + "px" }}
           >
             <h6 className="text-primary text-uppercase">Why choose,</h6>
-            <h1 className="display-5 text-uppercase mb-0">EUROPE</h1>
+            <h2 className="display-5 text-uppercase mb-0">EUROPE</h2>
           </div>
           <div className="europe-feature">
             <div style={style}>

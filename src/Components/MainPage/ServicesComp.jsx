@@ -1,10 +1,10 @@
 import React from "react";
-import sn1 from "../../../public/img/SH1.webp";
-import sn2 from "../../../public/img/t7.webp";
-import sn3 from "../../../public/img/SH3.webp";
-import sn4 from "../../../public/img/t5.webp";
-import sn5 from "../../../public/img/SH5.webp";
-import sn6 from "../../../public/img/SH6.webp";
+import sn1 from "/img/SH1.webp";
+import sn2 from "/img/t7.webp";
+import sn3 from "/img/SH3.webp";
+import sn4 from "/img/t5.webp";
+import sn5 from "/img/SH5.webp";
+import sn6 from "/img/SH6.webp";
 import "./ServicesComp.css";
 
 import { Link } from "react-router-dom";

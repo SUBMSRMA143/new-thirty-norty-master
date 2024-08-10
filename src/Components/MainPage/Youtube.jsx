@@ -11,7 +11,7 @@ const Youtube = () => {
             style={{ maxWidth: 600 + "px" }}
           >
             <h6 className="text-primary text-uppercase">Youtube</h6>
-            <h1 className="display-5 text-uppercase mb-0">Latest Youtube Videos</h1>
+            <h2 className="display-5 text-uppercase mb-0">Latest Youtube Videos</h2>
           </div>
           <div className="row g-5">
             <div className="col-lg-4">
@@ -19,7 +19,7 @@ const Youtube = () => {
                 url="https://www.youtube.com/watch?v=7Ic3XWmPDf0"
                 width={"100%"}
                 height={250}
-                // style={{ width: "100%", height:"250px" }}
+              // style={{ width: "100%", height:"250px" }}
               />
             </div>
             <div className="col-lg-4">
@@ -27,7 +27,7 @@ const Youtube = () => {
                 url="https://www.youtube.com/watch?v=_2ZlyKGWS4w"
                 width={"100%"}
                 height={250}
-                // style={{ width: "100%" }}
+              // style={{ width: "100%" }}
               />
             </div>
             <div className="col-lg-4">
@@ -35,7 +35,7 @@ const Youtube = () => {
                 url="https://www.youtube.com/watch?v=k_59lOauT6I"
                 width={"100%"}
                 height={250}
-                // style={{ width: "100%" }}
+              // style={{ width: "100%" }}
               />
             </div>
           </div>

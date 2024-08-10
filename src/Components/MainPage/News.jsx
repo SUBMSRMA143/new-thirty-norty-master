@@ -33,7 +33,7 @@ const News = () => {
           style={{ maxWidth: 600 + "px" }}
         >
           <h6 className="text-primary text-uppercase">Our News</h6>
-          <h1 className="display-5 text-uppercase mb-0">Latest News</h1>
+          <h2 className="display-5 text-uppercase mb-0">Latest News</h2>
         </div>
 
         <Swiper

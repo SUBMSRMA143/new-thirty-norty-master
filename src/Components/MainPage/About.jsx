@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import sn1 from "../../../public/img/about.jpg";
+import sn1 from "/img/about.jpg";
 
 const About = () => {
   const [user, setUser] = useState(1);
@@ -16,6 +16,7 @@ const About = () => {
                 <img
                   className="position-absolute w-100 h-100 rounded"
                   src={sn1}
+                  alt="aboutus-background"
                   style={{ objectFit: "cover" }}
                 />
               </div>
@@ -23,9 +24,9 @@ const About = () => {
             <div className="col-lg-7">
               <div className="border-start border-5 border-primary ps-5 mb-5">
                 <h6 className="text-primary text-uppercase">About Us</h6>
-                <h1 className="display-5 text-uppercase mb-0">
+                <h2 className="display-5 text-uppercase mb-0">
                   We strive to provide services that exceeds expectations
-                </h1>
+                </h2>
               </div>
               <h4 className="text-body mb-4">
                 Effective coaching based on the statistics of the international tennis circuit and player-specific detailed information

@@ -13,9 +13,9 @@ const Owner = () => {
               style={{ maxWidth: 600 + "px" }}
             >
               <h6 className="text-primary text-uppercase">The Founder</h6>
-              <h1 className="display-5 text-uppercase mb-0">
+              <h2 className="display-5 text-uppercase mb-0">
                 The Founder
-              </h1>
+              </h2>
             </div>
 
             <div className="try text-center p-4 px-5 d-flex justify-between-center align-items-center">

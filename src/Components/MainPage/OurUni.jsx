@@ -16,21 +16,21 @@ const OurUni = () => {
                     style={{ maxWidth: 600 + "px" }}
                 >
                     <h6 className="text-primary text-uppercase">Services</h6>
-                    <h1 className="display-5 text-uppercase mb-0">
+                    <h2 className="display-5 text-uppercase mb-0">
                         Our Overseas Academies Partners
-                    </h1>
+                    </h2>
                 </div>
                 <div className="row">
 
                     <div className="col-lg-6 col-md-6 col-6">
                         <div className="client-logo education-logo">
-                            <img src={cli1} className="img-fluid" alt="" />
+                            <img src={cli1} className="img-fluid" alt="rafa nadal academy" />
                         </div>
                     </div>
 
                     <div className="col-lg-6 col-md-6 col-6">
                         <div className="client-logo education-logo">
-                            <img src={cli2} className="img-fluid" alt="" />
+                            <img src={cli2} className="img-fluid" alt="rc" />
                         </div>
                     </div>
 

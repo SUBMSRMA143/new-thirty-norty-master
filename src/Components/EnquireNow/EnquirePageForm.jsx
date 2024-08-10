@@ -65,6 +65,7 @@ const EnquirePageForm = () => {
               <div className="col-lg-5">
                 <img
                   src={sn3}
+                  alt="campus"
                   style={{
                     objectFit: "cover",
                     width: "100%",

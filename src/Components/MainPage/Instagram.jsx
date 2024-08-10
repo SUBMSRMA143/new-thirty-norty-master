@@ -11,14 +11,14 @@ const Instagram = () => {
             style={{ maxWidth: 600 + "px" }}
           >
             <h6 className="text-primary text-uppercase">Instagram</h6>
-            <h1 className="display-5 text-uppercase mb-0">Instagram Handles</h1>
+            <h2 className="display-5 text-uppercase mb-0">Instagram Handles</h2>
           </div>
           <div className="row g-5">
             <div className="col-lg-4">
               <InstagramEmbed
                 url="https://www.instagram.com/_thirty40?igsh=am5sZGs1dWN4c2V5&utm_source=qr"
                 width={"100%"}
-                // height={"1000px"}
+              // height={"1000px"}
               />
             </div>
             <div className="col-lg-4">

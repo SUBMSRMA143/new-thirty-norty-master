@@ -1,7 +1,7 @@
 import { RampRight, Widgets } from "@mui/icons-material";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import sn1 from "../../../public/img/logo.png";
+import sn1 from "/img/logo.png";
 import "./NavBar.css";
 
 const NavBar = ({ page }) => {

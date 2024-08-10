@@ -29,7 +29,7 @@ const OurCenter = () => {
           style={{ maxWidth: 600 + "px" }}
         >
           <h6 className="text-primary text-uppercase">Our Center</h6>
-          <h1 className="display-5 text-uppercase mb-0">our Centeres</h1>
+          <h2 className="display-5 text-uppercase mb-0">our Centeres</h2>
         </div>
 
         <Swiper
@@ -55,7 +55,7 @@ const OurCenter = () => {
           className="myswiper2"
         >
           <SwiperSlide className="swiper-slide-2">
-            <img src={sn1} style={{ height: "200px", marginBottom: "10px" }} />
+            <img alt="gurugram" src={sn1} style={{ height: "200px", marginBottom: "10px" }} />
             <div className="col-12 h-100 d-flex flex-column">
               <div>
                 <h4 className="text-uppercase mb-3">GuruGram</h4>
@@ -63,7 +63,7 @@ const OurCenter = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide className="swiper-slide-2">
-            <img src={sn2} style={{ height: "200px", marginBottom: "10px" }} />
+            <img alt="delhi" src={sn2} style={{ height: "200px", marginBottom: "10px" }} />
             <div className="col-12 h-100 d-flex flex-column">
               <div>
                 <h4 className="text-uppercase mb-3">Delhi</h4>
@@ -77,7 +77,7 @@ const OurCenter = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide className="swiper-slide-2">
-            <img src={sn3} style={{ height: "200px", marginBottom: "10px" }} />
+            <img alt="spain" src={sn3} style={{ height: "200px", marginBottom: "10px" }} />
             <div className="col-12 h-100 d-flex flex-column">
               <div>
                 <h4 className="text-uppercase mb-3">Spain</h4>
@@ -90,7 +90,7 @@ const OurCenter = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide className="swiper-slide-2">
-            <img src={sn4} style={{ height: "200px", marginBottom: "10px" }} />
+            <img alt="muzzafarnagar" src={sn4} style={{ height: "200px", marginBottom: "10px" }} />
             <div className="col-12 h-100 d-flex flex-column">
               <div>
                 <h4 className="text-uppercase mb-3">Muzzafanagar</h4>
@@ -104,7 +104,7 @@ const OurCenter = () => {
           </SwiperSlide>
 
           <SwiperSlide className="swiper-slide-2">
-            <img src={campus3} style={{ height: "200px", marginBottom: "10px" }} />
+            <img alt="campus" src={campus3} style={{ height: "200px", marginBottom: "10px" }} />
             <div className="col-12 h-100 d-flex flex-column">
               <div>
                 <h4 className="text-uppercase mb-3">Belagavi</h4>
@@ -118,7 +118,7 @@ const OurCenter = () => {
           </SwiperSlide>
 
           <SwiperSlide className="swiper-slide-2">
-            <img src={campus1} style={{ height: "200px", marginBottom: "10px" }} />
+            <img alt="campus" src={campus1} style={{ height: "200px", marginBottom: "10px" }} />
             <div className="col-12 h-100 d-flex flex-column">
               <div>
                 <h4 className="text-uppercase mb-3">Mumbai</h4>

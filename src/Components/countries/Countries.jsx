@@ -1,8 +1,8 @@
 import React from "react";
 import "./Countries.css";
 import NavBar from "../NavBar/NavBar";
-import img5 from "../../../public/img/g1.webp";
-// import img5 from "../../../public/img/vivek5.png";
+import img5 from "/img/g1.webp";
+// import img5 from "/img/vivek5.png";
 import Footer from "../Footer/Footer";
 import CountryService from "./countriesServices/CountryService";
 import { ScrollRestoration } from "react-router-dom";
@@ -21,12 +21,12 @@ const Countries = () => {
           justifyContent: "flex-end",
         }}
       >
-        <h1
+        <h2
           className="display-4 text-uppercase mb-lg-4"
           style={{ color: "white", textAlign: "center" }}
         >
           GLOBAL
-        </h1>
+        </h2>
       </div>
       <div className="services">
         {/* <CountryService

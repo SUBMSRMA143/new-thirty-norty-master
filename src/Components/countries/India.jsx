@@ -1,7 +1,7 @@
 import React from "react";
 import "./Countries.css";
 import NavBar from "../NavBar/NavBar";
-import img4 from "../../../public/img/g2.webp";
+import img4 from "/img/g2.webp";
 import Footer from "../Footer/Footer";
 import { ScrollRestoration } from "react-router-dom";
 import OurCenter from "../MainPage/OurCenter";
@@ -20,12 +20,12 @@ const India = () => {
           justifyContent: "flex-end",
         }}
       >
-        <h1
+        <h2
           className="display-4 text-uppercase mb-lg-4"
           style={{ color: "white", textAlign: "center" }}
         >
           INDIA
-        </h1>
+        </h2>
       </div>
       <div className="services">
         <div className="pt-5"></div>
@@ -36,10 +36,9 @@ const India = () => {
           >
             <div className="service-text">
               <div className="border-start border-5 border-primary ps-5 mb-3">
-                {/* <h6 className="text-primary text-uppercase">About Us</h6> */}
-                <h1 className="display-5 text-uppercase mb-0">
-                  "Tennis Academy's in INDIA"
-                </h1>
+                <h2 className="display-5 text-uppercase mb-0">
+                  Tennis Academies in INDIA
+                </h2>
               </div>
               <p>
                 Thirt40 offers an exceptional environment for aspiring tennis players to hone their skills and achieve their full potential. Equipped with state-of-the-art facilities, Our academy provide comprehensive training programs that include on-court practice, fitness conditioning, mental coaching, and nutritional guidance. With experienced coaches and a structured curriculum, students receive personalized attention to improve their technique, strategy, and overall performance. In addition to regular training sessions, players have the opportunity to compete in local, national, and international tournaments
@@ -62,7 +61,7 @@ const India = () => {
               </ul>
             </div>
             <div className="service-img">
-              <img src={img4} />
+              <img src={img4} alt="grid2" />
             </div>
           </div>
         </div>

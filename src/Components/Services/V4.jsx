@@ -33,9 +33,9 @@ const V4 = () => {
             style={{ maxWidth: 600 + "px" }}
           >
             <h6 className="text-primary text-uppercase">Why choose,</h6>
-            <h1 className="display-5 text-uppercase mb-0">
+            <h2 className="display-5 text-uppercase mb-0">
               Tennis Camp In SPAIN
-            </h1>
+            </h2>
           </div>
           <div className="spain-feature">
             <div style={{ paddingBlock: "20px", textAlign: "center" }}>

@@ -12,17 +12,17 @@ const CountryService = ({ direction, serviceHeading, bgcolor, serviceIMG }) => {
             }`}
         // style={{ backgroundColor: `${bgcolor}` }}
         >
-          <div className="service-text">
+          <div className="country-service-text">
             <div className="border-start border-5 border-primary ps-5 mb-3">
               {/* <h6 className="text-primary text-uppercase">About Us</h6> */}
-              <h1 className="display-5 text-uppercase mb-0">
+              <h2 className="display-5 text-uppercase mb-0">
                 {serviceHeading}
-              </h1>
+              </h2>
             </div>
             <p>
               US colleges offer a chance to continue your tennis journey while pursuing a degree. You'll participate in a full-time training program with on-court drills, gym sessions, strength & conditioning, and recovery alongside competing against other colleges and individual tournaments. The Intercollegiate Tennis Association (ITA) governs college tennis in the US, overseeing men's and women's teams across various divisions: NCAA (Divisions I, II, III), NAIA, and Junior/Community Colleges .
             </p>
-            <h2>Features</h2>
+            <h3>Features</h3>
             <ul>
               <li>
                 Many colleges offer athletic scholarships to help cover the costs of education.
@@ -40,7 +40,7 @@ const CountryService = ({ direction, serviceHeading, bgcolor, serviceIMG }) => {
             </ul>
           </div>
           <div className="service-img">
-            <img src={serviceIMG} />
+            <img src={serviceIMG} alt="grid" />
           </div>
         </div>
       </div>

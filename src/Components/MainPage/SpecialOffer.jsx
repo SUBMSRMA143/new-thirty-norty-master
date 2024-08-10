@@ -13,9 +13,9 @@ const SpecialOffer = () => {
             <div className="col-lg-7">
               <div className="border-start border-5 border-primary ps-5 mb-5">
                 {/* <h6 className="text-dark text-uppercase">Hurry-up</h6> */}
-                <h1 className="display-5 text-uppercase text-white mb-0">
+                <h2 className="display-5 text-uppercase text-white mb-0">
                   LIMITED SLOTS AVAILABLE HURRY UP!
-                </h1>
+                </h2>
               </div>
               {/* <p className="text-white mb-4">
                 Eirmod sed tempor lorem ut dolores sit kasd ipsum. Dolor ea et

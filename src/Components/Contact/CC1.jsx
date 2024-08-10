@@ -10,9 +10,9 @@ const CC1 = () => {
             style={{ maxWidth: 600 + "px" }}
           >
             <h6 className="text-primary text-uppercase">Contact Us</h6>
-            <h1 className="display-5 text-uppercase mb-0">
+            <h2 className="display-5 text-uppercase mb-0">
               Please Feel Free To Contact Us
-            </h1>
+            </h2>
           </div>
           <div className="row g-5">
             <div className="col-lg-7">

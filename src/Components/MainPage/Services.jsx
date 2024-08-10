@@ -19,9 +19,9 @@ const Services = () => {
           style={{ maxWidth: 600 + "px" }}
         >
           <h6 className="text-primary text-uppercase">Services</h6>
-          <h1 className="display-5 text-uppercase mb-0">
+          <h2 className="display-5 text-uppercase mb-0">
             Our Excellent Tennis Services
-          </h1>
+          </h2>
         </div>
         <div className="row" style={{ rowGap: "30px" }}>
           {list.map((e) => (
