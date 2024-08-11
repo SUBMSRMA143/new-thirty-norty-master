@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import sn1 from "/img/about.jpg";
+import sn1 from "/img/about.webp";
 
 const About = () => {
   const [user, setUser] = useState(1);
