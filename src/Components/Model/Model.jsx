@@ -18,7 +18,7 @@ const Model = () => {
   return (
     <>
       <Modal
-        // title="Basic Modal"
+        title="Basic Modal"
         open={isModalOpen}
         onOk={handleOk}
         centered={true}

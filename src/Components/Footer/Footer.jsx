@@ -94,24 +94,28 @@ const Footer = () => {
                 <Link
                   className="btn btn-outline-primary btn-square me-2"
                   to="https://x.com/_thirty40"
+                  aria-label="follow us on twitter"
                 >
                   <i className="bi bi-twitter"></i>
                 </Link>
                 <Link
                   className="btn btn-outline-primary btn-square me-2"
                   to="https://www.facebook.com/thirty40worldwidelaunchers/"
+                  aria-label="follow us on facebook"
                 >
                   <i className="bi bi-facebook"></i>
                 </Link>
                 <Link
                   className="btn btn-outline-primary btn-square me-2"
                   to="https://www.linkedin.com/company/thirty40/"
+                  aria-label="follow us on linkedin"
                 >
                   <i className="bi bi-linkedin"></i>
                 </Link>
                 <Link
                   className="btn btn-outline-primary btn-square"
                   to="https://www.instagram.com/_thirty40/"
+                  aria-label="follow us on instagram"
                 >
                   <i className="bi bi-instagram"></i>
                 </Link>

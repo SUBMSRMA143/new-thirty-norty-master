@@ -18,6 +18,7 @@ const Instagram = () => {
               <InstagramEmbed
                 url="https://www.instagram.com/_thirty40?igsh=am5sZGs1dWN4c2V5&utm_source=qr"
                 width={"100%"}
+                title="instagram account"
               // height={"1000px"}
               />
             </div>
@@ -25,12 +26,14 @@ const Instagram = () => {
               <InstagramEmbed
                 url="https://www.instagram.com/arnaaav_/"
                 width={"100%"}
+                title="instagram account"
               />
             </div>
             <div className="col-lg-4">
               <InstagramEmbed
                 url="https://www.instagram.com/thirty40academies?igsh=MWU3Nmd4NnJreWJoMQ%3D%3D&utm_source=qr"
                 width={"100%"}
+                title="instagram account"
               />
             </div>
           </div>
