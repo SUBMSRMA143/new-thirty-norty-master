@@ -1,5 +1,5 @@
 .bg-testimonial {
-  background: url(../img/testimonial.jpg) top left no-repeat;
+  background: url(../img/testimonial.webp) top left no-repeat;
   background-size: cover;
 }
 
@@ -40,7 +40,7 @@
 
 @media (min-width: 576px) {
   .blog-item .row {
-      height: 300px;
+    height: 300px;
   }
 }
 
@@ -68,4 +68,4 @@
 
 .blog-item a:hover i::after {
   width: 50px;
-} 
+}
