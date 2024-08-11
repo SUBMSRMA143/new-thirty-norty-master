@@ -1,7 +1,7 @@
 import React from "react";
 import sn3 from "/img/spain.webp";
 
-const EnquirePageForm = () => {
+const EnquirePageForm = ({ campus }) => {
   return (
     <div className="pt-5">
       <div className="pt-5">
@@ -64,7 +64,7 @@ const EnquirePageForm = () => {
               </div>
               <div className="col-lg-5">
                 <img
-                  src={sn3}
+                  src={`/img/${campus}.webp`}
                   alt="campus"
                   style={{
                     objectFit: "cover",

@@ -2,17 +2,17 @@ import React from 'react'
 import './OurUni.css'
 
 const images = [
-    { key: 1, addr: "/img/cli1.png" },
-    { key: 2, addr: "/img/cli2.jpg" },
-    { key: 3, addr: "/img/cli3.png" },
-    { key: 4, addr: "/img/cli4.png" },
-    { key: 5, addr: "/img/cli5.png" },
-    { key: 6, addr: "/img/cli6.png" },
-    { key: 7, addr: "/img/cli7.jpg" },
-    { key: 8, addr: "/img/cli8.png" },
-    { key: 9, addr: "/img/cli9.png" },
-    { key: 10, addr: "/img/cli10.jpg" },
-    { key: 11, addr: "/img/cli11.jpg" },
+    { key: 1, addr: "/img/cli1.webp" },
+    { key: 2, addr: "/img/cli2.webp" },
+    { key: 3, addr: "/img/cli3.webp" },
+    { key: 4, addr: "/img/cli4.webp" },
+    { key: 5, addr: "/img/cli5.webp" },
+    { key: 6, addr: "/img/cli6.webp" },
+    { key: 7, addr: "/img/cli7.webp" },
+    { key: 8, addr: "/img/cli8.webp" },
+    { key: 9, addr: "/img/cli9.webp" },
+    { key: 10, addr: "/img/cli10.webp" },
+    { key: 11, addr: "/img/cli11.webp" },
 ];
 
 const AllUni = () => {

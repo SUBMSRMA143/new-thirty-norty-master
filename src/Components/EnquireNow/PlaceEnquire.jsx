@@ -9,14 +9,15 @@ import NavBar from "../NavBar/NavBar";
 const PlaceEnquire = () => {
   const location = useLocation();
   const currentUrl = location.pathname;
-  const place = currentUrl.split("/");
+  let place = currentUrl.split("/");
+  place = place[2].toLowerCase();
+  console.log(place);
 
-  //   place = place[2].toLowerCase()
 
   return (
     <div>
       <NavBar />
-      <EnquirePageForm />
+      <EnquirePageForm campus={place} />
       <Footer />
       <FloatingWhatsApp />
       <ScrollRestoration />

@@ -125,7 +125,7 @@ const Footer = () => {
           <div className="row g-5">
             <div className="col-md-6 text-center text-md-start">
               <p className="mb-md-0">
-                &copy; Your Site Name . All Rights Reserved.
+                &copy; new-thirty-forty-master.vercel.app . All Rights Reserved.
               </p>
             </div>
             <div className="col-md-6 text-center text-md-end">

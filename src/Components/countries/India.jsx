@@ -35,15 +35,15 @@ const India = () => {
           // style={{ backgroundColor: `${bgcolor}` }}
           >
             <div className="service-text">
-              <div className="border-start border-5 border-primary ps-5 mb-3">
+              <div className="border-start border-5 border-primary ps-5 mb-4">
                 <h2 className="display-5 text-uppercase mb-0">
                   Tennis Academies in INDIA
                 </h2>
               </div>
-              <p>
+              <p className="mb-4">
                 Thirt40 offers an exceptional environment for aspiring tennis players to hone their skills and achieve their full potential. Equipped with state-of-the-art facilities, Our academy provide comprehensive training programs that include on-court practice, fitness conditioning, mental coaching, and nutritional guidance. With experienced coaches and a structured curriculum, students receive personalized attention to improve their technique, strategy, and overall performance. In addition to regular training sessions, players have the opportunity to compete in local, national, and international tournaments
               </p>
-              <h2>Features</h2>
+              <h2 className="mb-3">Features</h2>
               <ul>
                 <li>
                   The academy offers personalized coaching tailored to each player's needs, from beginners to aspiring professionals.
