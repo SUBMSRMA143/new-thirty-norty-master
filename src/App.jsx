@@ -19,11 +19,19 @@ const Owner = lazy(() => import("./Components/MainPage/Owner"));
 
 const App = () => {
   const [display, setDisplay] = useState(false);
+  const [shouldLoad, setShouldLoad] = useState(false);
   useEffect(() => {
     setTimeout(() => {
       setDisplay(true);
     }, 2000);
   });
+
+  const handlemouseover = () => {
+    if (!shouldLoad) {
+      setShouldLoad(true);
+      console.log(shouldLoad);
+    }
+  }
   return (
     <>
       {display ? <Model /> : ""}
@@ -34,15 +42,17 @@ const App = () => {
       <OurUni />
       <div className="pb-5"></div>
       <SpecialOffer />
-      <Suspense fallback={<h3>Content Loading....</h3>}>
-        <Testimonial />
-        <News />
-        {/* <LatestBlogs /> */}
-        <Youtube />
-        <Instagram />
-        <Owner />
-        <Footer />
-      </Suspense>
+      <div onMouseOver={handlemouseover}>
+        <Suspense fallback={<h3>Content Loading....</h3>}>
+          <Testimonial />
+          <News />
+          {/* <LatestBlogs /> */}
+          {shouldLoad && <Youtube />}
+          {shouldLoad && <Instagram />}
+          <Owner />
+          <Footer />
+        </Suspense>
+      </div>
       <ScrollRestoration />
       <FloatingWhatsApp />
     </>
