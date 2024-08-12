@@ -42,10 +42,12 @@ const ServicesComp = ({ id, linkdesc, name }) => {
             textTransform: "uppercase",
           }}
         >
-          {name}
+          {/* {name} */}
         </h3>
         <Link to={`/services/${linkdesc}`} aria-label={`${name}`} className="text-white services-btn">
-          Learn More {<p style={{ display: "none" }}>{name}</p>}
+          {/* Learn More  */}
+          {name} 
+          {/* {<p style={{ display: "none" }}>{name}</p>} */}
           <ArrowRightAltIcon fontSize="medium" />
         </Link>
       </div>
