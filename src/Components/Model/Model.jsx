@@ -18,7 +18,7 @@ const Model = () => {
   return (
     <>
       <Modal
-        title="Basic Modal"
+        title="Contact form"
         open={isModalOpen}
         onOk={handleOk}
         centered={true}

@@ -45,7 +45,7 @@ const ServicesComp = ({ id, linkdesc, name }) => {
           {name}
         </h3>
         <Link to={`/services/${linkdesc}`} aria-label={`${name}`} className="text-white services-btn">
-          Learn More
+          Learn More {<p style={{ display: "none" }}>{name}</p>}
           <ArrowRightAltIcon fontSize="medium" />
         </Link>
       </div>

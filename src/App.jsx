@@ -45,25 +45,6 @@ const App = () => {
       </Suspense>
       <ScrollRestoration />
       <FloatingWhatsApp />
-      <Helmet>
-        <script type="application/ld+json">
-          {`
-          {
-            "@content": "https://schema.org",
-            "@type": "Organization",
-            "name": "Thirty40",
-            "url": "https://new-thirty-forty-master.vercel.app/",
-            "logo": "https://new-thirty-forty-master.vercel.app/assets/logo-CxDQB7Xr.png",
-            "contactPoint": {
-                  "@type": "ContactPoint",
-                  "telephone": "+91-7892650335",
-                  "email": "info@thirty40.in",
-                  "areaServed": ["USA", "INDIA", "EUROPE"]
-                  "contactType": "Customer Service",
-          }`
-          }
-        </script>
-      </Helmet>
     </>
   );
 };
