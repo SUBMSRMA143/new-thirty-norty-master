@@ -8,7 +8,7 @@ import OurCenter from "./Components/MainPage/OurCenter";
 import Model from "./Components/Model/Model";
 import HeroPage from "./Components/MainPage/HeroPage";
 import OurUni from "./Components/MainPage/OurUni";
-import { Helmet } from "react-helmet";
+import { LoadingOutlined } from "@ant-design/icons"
 
 const Testimonial = lazy(() => import("./Components/MainPage/Testimonial"));
 const News = lazy(() => import("./Components/MainPage/News"));
@@ -43,7 +43,16 @@ const App = () => {
       <div className="pb-5"></div>
       <SpecialOffer />
       <div onMouseOver={handlemouseover}>
-        <Suspense fallback={<h3>Content Loading....</h3>}>
+        <Suspense fallback={<h3
+          className="text-primary"
+          style={{
+            position: "absolute",
+            top: "50%",
+            left: "50%",
+            translate: "-50% -50%",
+            fontSize: "90px",
+          }}
+        ><LoadingOutlined /></h3>}>
           <Testimonial />
           <News />
           {/* <LatestBlogs /> */}
