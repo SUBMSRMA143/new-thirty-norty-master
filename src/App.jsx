@@ -50,7 +50,7 @@ const App = () => {
             top: "50%",
             left: "50%",
             translate: "-50% -50%",
-            fontSize: "90px",
+            fontSize: "80px",
           }}
         ><LoadingOutlined /></h3>}>
           <Testimonial />
