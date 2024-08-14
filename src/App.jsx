@@ -34,7 +34,7 @@ const App = () => {
   }
   return (
     <>
-      {display ? <Model /> : ""}
+      {/* {display ? <Model /> : ""} */}
       <NavBar />
       <HeroPage />
       <Services />
