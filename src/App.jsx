@@ -5,12 +5,10 @@ import NavBar from "./Components/NavBar/NavBar";
 import Services from "./Components/MainPage/Services";
 import SpecialOffer from "./Components/MainPage/SpecialOffer";
 import OurCenter from "./Components/MainPage/OurCenter";
-// import Model from "./Components/Model/Model";
 import HeroPage from "./Components/MainPage/HeroPage";
 import OurUni from "./Components/MainPage/OurUni";
 import { LoadingOutlined } from "@ant-design/icons"
 
-// const HeroPage = lazy(() => import("./Components/MainPage/HeroPage"));
 const Model = lazy(() => import("./Components/Model/Model"));
 const Testimonial = lazy(() => import("./Components/MainPage/Testimonial"));
 const News = lazy(() => import("./Components/MainPage/News"));
@@ -31,7 +29,6 @@ const App = () => {
   const handlemouseover = () => {
     if (!shouldLoad) {
       setShouldLoad(true);
-      // console.log(shouldLoad);
     }
   }
   return (
@@ -41,9 +38,7 @@ const App = () => {
           <Model />
         </Suspense>)}
       <NavBar />
-      {/* <Suspense> */}
       <HeroPage />
-      {/* </Suspense> */}
       <Services />
       <OurCenter />
       <OurUni />
