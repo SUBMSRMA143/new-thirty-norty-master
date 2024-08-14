@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import sn1 from "/img/gurugram.webp";
 import sn2 from "/img/delhi.webp";
 import sn3 from "/img/spain.webp";
@@ -18,7 +18,7 @@ import "swiper/css/navigation";
 import "./OurCenter.css";
 
 // import required modules
-import { Pagination, Navigation } from "swiper/modules";
+import { Navigation } from "swiper/modules";
 
 const OurCenter = () => {
   return (

@@ -1,15 +1,6 @@
-import React, { useState } from "react";
-// import './HeroPage.css'
 import Carousel from "./Carousel";
 
 const HeroPage = () => {
-  const [navBg, setNavBg] = useState(false);
-
-  const changeNavBg = () => {
-    window.scrollY >= 90 ? setNavBg(true) : setNavBg(false);
-  };
-
-  window.addEventListener("scroll", changeNavBg);
   return (
     <div className="hero-container">
       <div className="container hero-content">
