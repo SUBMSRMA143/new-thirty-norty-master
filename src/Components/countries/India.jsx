@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import "./Countries.css";
 import NavBar from "../NavBar/NavBar";
 import img4 from "/img/g2.webp";
@@ -29,9 +29,9 @@ const India = () => {
       </div>
       <div className="services">
         <div className="pt-5"></div>
-        <div className={`container-fluid`}>
+        <div className="container-fluid">
           <div
-            className={`container service-container `}
+            className="service-container container"
           // style={{ backgroundColor: `${bgcolor}` }}
           >
             <div className="service-text">
@@ -46,7 +46,7 @@ const India = () => {
               <h2 className="mb-3">Features</h2>
               <ul>
                 <li>
-                  The academy offers personalized coaching tailored to each player's needs, from beginners to aspiring professionals.
+                  The academy offers personalized coaching tailored to every players needs, from beginners to aspiring professionals.
                 </li>
                 <li>
                   The academy offers sports psychotherapy, nutrition counseling, and fitness training, ensuring a holistic approach to player development.

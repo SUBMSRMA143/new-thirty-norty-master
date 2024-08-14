@@ -29,7 +29,7 @@ const router = createBrowserRouter([
     path: "/AboutUs",
     element: (
       <Suspense fallback={<h3
-        >Content Loading...</h3>}>
+      >Content Loading...</h3>}>
         <AboutUs />,
       </Suspense>
     )
@@ -72,7 +72,7 @@ const router = createBrowserRouter([
 
   },
   {
-    path: "/T&C",
+    path: "/TandC",
     element: (
       <Suspense fallback={<h3>Content Loading...</h3>}>
         <TAC />,
@@ -145,7 +145,7 @@ const router = createBrowserRouter([
   },
 
   {
-    path: "/services/Register-For-Tennis-&-Education",
+    path: "/services/Register-For-Tennis-and-Education",
     element: (
       <Suspense fallback={<h3>Content Loading...</h3>}>
         <V2 />,
@@ -155,7 +155,7 @@ const router = createBrowserRouter([
   },
 
   {
-    path: "/services/Scholarship-in-USA-&-Europe",
+    path: "/services/Scholarship-in-USA-and-Europe",
     element: (
       <Suspense fallback={<h3>Content Loading...</h3>}>
         <V3 />,

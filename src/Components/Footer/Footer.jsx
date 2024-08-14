@@ -113,11 +113,18 @@ const Footer = () => {
                   <i className="bi bi-linkedin"></i>
                 </Link>
                 <Link
-                  className="btn btn-outline-primary btn-square"
+                  className="btn btn-outline-primary btn-square me-2"
                   to="https://www.instagram.com/_thirty40/"
                   aria-label="follow us on instagram"
                 >
                   <i className="bi bi-instagram"></i>
+                </Link>
+                <Link
+                  className="ml-2 btn btn-outline-primary btn-square"
+                  to="https://www.youtube.com/channel/UCE9eYyytHvPpwogleyWN22A"
+                  aria-label="follow us on youtube"
+                >
+                  <i className="bi bi-youtube"></i>
                 </Link>
               </div>
             </div>

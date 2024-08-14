@@ -3,8 +3,8 @@ import ServicesComp from "./ServicesComp";
 
 const list = [
   { id: 1, linkdesc: "Join-Our-Academy", name: "Join Our Academy" },
-  { id: 2, linkdesc: "Register-For-Tennis-&-Education", name: "Register For Tennis & Education" },
-  { id: 3, linkdesc: "Scholarship-in-USA-&-Europe", name: "Scholarship in USA & Europe" },
+  { id: 2, linkdesc: "Register-For-Tennis-and-Education", name: "Register For Tennis & Education" },
+  { id: 3, linkdesc: "Scholarship-in-USA-and-Europe", name: "Scholarship in USA & Europe" },
   { id: 4, linkdesc: "Tennis-Camp-in-Spain", name: "Tennis Camp in Spain" },
   { id: 5, linkdesc: "Career-Counseling", name: "Career Counseling" },
   { id: 6, linkdesc: "Book-a-course", name: "Book a course" },

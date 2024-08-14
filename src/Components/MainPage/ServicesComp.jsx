@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import sn1 from "/img/SH1.webp";
 import sn2 from "/img/t7.webp";
 import sn3 from "/img/SH3.webp";
@@ -46,7 +46,7 @@ const ServicesComp = ({ id, linkdesc, name }) => {
         </h3>
         <Link to={`/services/${linkdesc}`} aria-label={`${name}`} className="text-white services-btn">
           {/* Learn More  */}
-          {name} 
+          {name}
           {/* {<p style={{ display: "none" }}>{name}</p>} */}
           <ArrowRightAltIcon fontSize="medium" />
         </Link>

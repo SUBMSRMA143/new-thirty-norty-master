@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import sn1 from "/img/logo.webp";
 import "./NavBar.css";
@@ -7,7 +7,7 @@ const NavBar = ({ page }) => {
   const [navBg, setNavBg] = useState(false);
   const [mobileNav, setMobileNav] = useState(false);
 
-  console.log(mobileNav);
+  // console.log(mobileNav);
 
   const changeNavBg = () => {
     window.scrollY >= 90 ? setNavBg(true) : setNavBg(false);
@@ -95,7 +95,7 @@ const NavBar = ({ page }) => {
             >
               Tennis Academies
             </Link>
-            <Link to="/Services/Register-For-Tennis-&-Education" className="nav-item nav-link">
+            <Link to="/Services/Register-For-Tennis-and-Education" className="nav-item nav-link">
               Career Counselling
             </Link>
 

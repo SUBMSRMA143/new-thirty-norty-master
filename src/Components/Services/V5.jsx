@@ -5,6 +5,7 @@ import { FloatingWhatsApp } from "react-floating-whatsapp";
 import { ScrollRestoration } from "react-router-dom";
 // import './V6.css'
 import V6services from "./V6services";
+import '../countries/Countries.css'
 
 const V5 = () => {
   // const style = {
@@ -15,7 +16,7 @@ const V5 = () => {
     <>
       <NavBar />
       <div
-        className={"USA container-fluid bg-primary mb-5 SH1"}
+        className={"USA container-fluid bg-primary mb-5 SH3_2"}
         style={{
           // paddingInline: "100px",
           paddingTop: "295px",
