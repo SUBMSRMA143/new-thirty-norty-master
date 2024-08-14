@@ -24,7 +24,7 @@ const App = () => {
   useEffect(() => {
     setTimeout(() => {
       setDisplay(true);
-    }, 1000);
+    }, 2000);
   }, []);
 
   const handlemouseover = () => {
