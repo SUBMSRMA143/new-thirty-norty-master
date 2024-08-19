@@ -56,7 +56,8 @@ const App = () => {
           }}
         ><LoadingOutlined /></h3>}>
           <Testimonial />
-          <News />
+          {shouldLoad && <News />}
+          {/* <News /> */}
           {/* <LatestBlogs /> */}
           {shouldLoad && <Youtube />}
           {shouldLoad && <Instagram />}
