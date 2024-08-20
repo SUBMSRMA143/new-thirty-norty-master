@@ -9,7 +9,7 @@ import NavBar from '../NavBar/NavBar';
 const V2 = () => {
   return (
     <div>
-      <NavBar />
+      <NavBar page={"Register-For-Tennis-and-Education"} />
       <EnquirePageForm campus={"spain"} />
       <Footer />
       <FloatingWhatsApp />

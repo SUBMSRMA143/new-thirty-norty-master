@@ -1,4 +1,4 @@
-import { lazy, Suspense } from "react";
+// import { lazy, Suspense } from "react";
 import { createBrowserRouter } from "react-router-dom";
 import App from "./App";
 import Countries from "./Components/countries/Countries";
@@ -73,10 +73,6 @@ const router = createBrowserRouter([
 
   ////////////Countries Pages///////////////
 
-  {
-    path: "/countries",
-    element: <Countries />,
-  },
   {
     path: "/USA",
     element: <USA />,

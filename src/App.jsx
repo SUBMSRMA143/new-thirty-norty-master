@@ -38,6 +38,7 @@ const App = () => {
           <Model />
         </Suspense>)}
       <NavBar />
+      {/* <NavBar page={`${pageURL}`} /> */}
       <HeroPage />
       <Services />
       <OurCenter />

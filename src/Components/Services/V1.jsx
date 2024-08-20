@@ -13,7 +13,7 @@ const Owner = lazy(() => import("../MainPage/Owner"));
 const V1 = () => {
   return (
     <>
-      <NavBar page={"Tennis Academies"} />
+      <NavBar page={"Join-Our-Academy"} />
       <div className='p-5'></div>
       {/* <About/> */}
       <V1Services />

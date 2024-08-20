@@ -10,7 +10,7 @@ import { ScrollRestoration } from "react-router-dom";
 const Countries = () => {
   return (
     <>
-      <NavBar page={"India"} />
+      <NavBar page={"Global"} />
       <div
         className={`container-fluid bg-primary mb-5 SH1`}
         style={{

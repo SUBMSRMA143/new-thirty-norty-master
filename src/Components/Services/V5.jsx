@@ -14,7 +14,7 @@ const V5 = () => {
   // }
   return (
     <>
-      <NavBar />
+      <NavBar page={"Career-Counseling"} />
       <div
         className={"USA container-fluid bg-primary mb-5 SH3_2"}
         style={{
