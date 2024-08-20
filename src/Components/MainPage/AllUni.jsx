@@ -1,9 +1,9 @@
-import React from 'react'
+// import React from 'react'
 import './OurUni.css'
 
 const images = [
     { key: 1, addr: "/img/cli1.webp" },
-    { key: 2, addr: "/img/cli2.webp" },
+    // { key: 2, addr: "/img/cli2.webp" },
     { key: 3, addr: "/img/cli3.webp" },
     { key: 4, addr: "/img/cli4.webp" },
     { key: 5, addr: "/img/cli5.webp" },
