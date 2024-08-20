@@ -65,7 +65,11 @@ const router = createBrowserRouter([
   },
   {
     path: "/EnquireNow",
-    element: <EnquireNow />,
+    element: (
+      <Suspense fallback={<h3>Content Loading...</h3>}>
+        <EnquireNow />
+      </Suspense>
+    ),
   },
 
   {
