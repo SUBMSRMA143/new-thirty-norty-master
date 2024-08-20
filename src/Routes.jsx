@@ -1,15 +1,15 @@
-// import { lazy, Suspense } from "react";
+import { lazy, Suspense } from "react";
 import { createBrowserRouter } from "react-router-dom";
 import App from "./App";
 import Countries from "./Components/countries/Countries";
-import EnquireNow from "./Components/EnquireNow/EnquireNow";
+// import EnquireNow from "./Components/EnquireNow/EnquireNow";
 import PlaceEnquire from "./Components/EnquireNow/PlaceEnquire";
-import AboutUs from "./Components/AboutUs/AboutUs";
-import ContactUs from "./Components/Contact/ContactUs";
+// import AboutUs from "./Components/AboutUs/AboutUs";
+// import ContactUs from "./Components/Contact/ContactUs";
 import ServicesPage from "./Components/Services/ServicesPage";
-import USA from "./Components/countries/USA";
-import Europe from "./Components/countries/Europe";
-import India from "./Components/countries/India";
+// import USA from "./Components/countries/USA";
+// import Europe from "./Components/countries/Europe";
+// import India from "./Components/countries/India";
 import V1 from "./Components/Services/V1";
 import V2 from "./Components/Services/V2";
 import V3 from "./Components/Services/V3";
@@ -18,14 +18,14 @@ import V5 from "./Components/Services/V5";
 import V6 from "./Components/Services/V6";
 import TAC from "./Components/T&C/TAC";
 // const Countries = lazy(() => import("./Components/countries/Countries"));
-// const EnquireNow = lazy(() => import("./Components/EnquireNow/EnquireNow"));
+const EnquireNow = lazy(() => import("./Components/EnquireNow/EnquireNow"));
 // const PlaceEnquire = lazy(() => import("./Components/EnquireNow/PlaceEnquire"));
-// const AboutUs = lazy(() => import("./Components/AboutUs/AboutUs"));
-// const ContactUs = lazy(() => import("./Components/Contact/ContactUs"));
+const AboutUs = lazy(() => import("./Components/AboutUs/AboutUs"));
+const ContactUs = lazy(() => import("./Components/Contact/ContactUs"));
 // const ServicesPage = lazy(() => import("./Components/Services/ServicesPage"));
-// const USA = lazy(() => import("./Components/countries/USA"));
-// const Europe = lazy(() => import("./Components/countries/Europe"));
-// const India = lazy(() => import("./Components/countries/India"));
+const USA = lazy(() => import("./Components/countries/USA"));
+const Europe = lazy(() => import("./Components/countries/Europe"));
+const India = lazy(() => import("./Components/countries/India"));
 // const V1 = lazy(() => import("./Components/Services/V1"));
 // const V2 = lazy(() => import("./Components/Services/V2"));
 // const V3 = lazy(() => import("./Components/Services/V3"));
@@ -43,7 +43,12 @@ const router = createBrowserRouter([
   },
   {
     path: "/AboutUs",
-    element: <AboutUs />,
+    // element: <AboutUs />,
+    element: (
+      <Suspense fallback={<h3>Content Loading...</h3>}>
+        <AboutUs />,
+      </Suspense>
+    )
   },
   {
     path: "/Services",
@@ -51,7 +56,12 @@ const router = createBrowserRouter([
   },
   {
     path: "/ContactUs",
-    element: <ContactUs />,
+    // element: <ContactUs />,
+    element: (
+      <Suspense fallback={<h3>Content Loading...</h3>}>
+        <ContactUs />,
+      </Suspense>
+    )
   },
   {
     path: "/EnquireNow",
@@ -75,15 +85,30 @@ const router = createBrowserRouter([
 
   {
     path: "/USA",
-    element: <USA />,
+    // element: <USA />,
+    element: (
+      <Suspense fallback={<h3>Content Loading...</h3>}>
+        <USA />,
+      </Suspense>
+    )
   },
   {
     path: "/Europe",
-    element: <Europe />,
+    // element: <Europe />,
+    element: (
+      <Suspense fallback={<h3>Content Loading...</h3>}>
+        <Europe />,
+      </Suspense>
+    )
   },
   {
     path: "/India",
-    element: <India />,
+    // element: <India />,
+    element: (
+      <Suspense fallback={<h3>Content Loading...</h3>}>
+        <India />,
+      </Suspense>
+    )
   },
   {
     path: "/Global",
@@ -217,11 +242,11 @@ const router = createBrowserRouter([
 //   },
 //   {
 //     path: "/India",
-//     element: (
-//       <Suspense fallback={<h3>Content Loading...</h3>}>
-//         <India />,
-//       </Suspense>
-//     )
+// element: (
+//   <Suspense fallback={<h3>Content Loading...</h3>}>
+//     <India />,
+//   </Suspense>
+// )
 
 //   },
 //   {
