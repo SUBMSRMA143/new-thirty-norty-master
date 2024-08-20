@@ -1,7 +1,7 @@
-import React from 'react'
+// import React from 'react'
 import cli1 from '/img/cli1.webp'
 // import cli1 from '../../../public/img/cli1.webp'
-import cli2 from '/img/cli2.webp'
+// import cli2 from '/img/cli2.webp'
 // import cli2 from '../../../public/img/cli2.webp'
 import './OurUni.css'
 
@@ -20,19 +20,19 @@ const OurUni = () => {
                         Our Overseas Academies Partners
                     </h2>
                 </div>
-                <div className="row">
+                <div className="row" style={{ justifyContent: "center" }}>
 
-                    <div className="col-lg-6 col-md-6 col-6">
+                    <div style={{ width: 500 + "px" }}>
                         <div className="client-logo education-logo">
                             <img src={cli1} className="img-fluid" alt="rafa nadal academy" />
                         </div>
                     </div>
 
-                    <div className="col-lg-6 col-md-6 col-6">
+                    {/* <div className="col-lg-6 col-md-6 col-6">
                         <div className="client-logo education-logo">
                             <img src={cli2} className="img-fluid" alt="rc" />
                         </div>
-                    </div>
+                    </div> */}
 
                 </div>
             </div>
