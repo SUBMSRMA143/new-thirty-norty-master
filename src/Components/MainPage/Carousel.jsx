@@ -2,6 +2,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-fade";
 import "swiper/css/navigation";
+import herop1 from "/img/bgt40.webp"
+import herop2 from "/img/hero5.webp"
+import herop3 from "/img/hero3.webp"
 
 import { EffectFade, Navigation, Autoplay } from "swiper/modules";
 
@@ -24,13 +27,16 @@ const Carousel = () => {
         <div className="hero-page-img-5"></div>
       </SwiperSlide> */}
       <SwiperSlide>
-        <div className="hero-page-img-3"></div>
+        <img src={herop1} loading="lazy" className="hero-page-img-3" />
+        {/* <div className="hero-page-img-3"></div> */}
       </SwiperSlide>
       <SwiperSlide>
-        <div className="hero-page-img-2"></div>
+        <img src={herop2} loading="lazy" className="hero-page-img-2" />
+        {/* <div className="hero-page-img-2"></div> */}
       </SwiperSlide>
       <SwiperSlide>
-        <div className="hero-page-img-1"></div>
+        <img src={herop3} loading="lazy" className="hero-page-img-1" />
+        {/* <div className="hero-page-img-1"></div> */}
       </SwiperSlide>
     </Swiper>
   );

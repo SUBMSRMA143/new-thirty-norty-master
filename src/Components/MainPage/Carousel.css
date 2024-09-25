@@ -18,26 +18,26 @@
     width: 100vw;
     height: 100%;
 
-    background-image: url("/img/hero3.webp");
-    background-position: 0 50%;
-    background-size: cover;
+    /* background-image: url("/img/hero3.webp"); */
+    /* background-position: 0 50%;
+    background-size: cover; */
 }
 
 .hero-page-img-2 {
     width: 100vw;
     height: 100%;
-    background-image: url("/img/hero5.webp");
-    background-position: 0% 70%;
-    background-size: cover;
+    /* background-image: url("/img/hero5.webp"); */
+    /* background-position: 0% 70%;
+    background-size: cover; */
 }
 
 .hero-page-img-3 {
     width: 100vw;
     height: 100%;
-
-    background-image: url("/img/bgt40.webp");
-    background-position: 0% 10%;
-    background-size: cover;
+    margin-top: 80px;
+    /* background-image: url("/img/bgt40.webp"); */
+    /* background-position: 0% 10%;
+    background-size: cover; */
 }
 
 @media screen and (max-width: 1084px) and (min-width: 600px) {
@@ -50,6 +50,7 @@
     }
 
     .hero-page-img-3 {
+        margin-top: 0px;
         background-position: 30% 0%;
     }
 }
@@ -64,6 +65,7 @@
     }
 
     .hero-page-img-3 {
+        margin-top: 0px;
         background-position: 30% 0%;
     }
 
