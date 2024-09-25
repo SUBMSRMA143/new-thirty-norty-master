@@ -31,11 +31,11 @@ const Carousel = () => {
         {/* <div className="hero-page-img-3"></div> */}
       </SwiperSlide>
       <SwiperSlide>
-        <img src={herop2} loading="lazy" className="hero-page-img-2" />
+        <img src={herop2} className="hero-page-img-2" />
         {/* <div className="hero-page-img-2"></div> */}
       </SwiperSlide>
       <SwiperSlide>
-        <img src={herop3} loading="lazy" className="hero-page-img-1" />
+        <img src={herop3} className="hero-page-img-1" />
         {/* <div className="hero-page-img-1"></div> */}
       </SwiperSlide>
     </Swiper>
