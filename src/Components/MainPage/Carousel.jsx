@@ -27,7 +27,7 @@ const Carousel = () => {
         <div className="hero-page-img-5"></div>
       </SwiperSlide> */}
       <SwiperSlide>
-        <img src={herop1} loading="lazy" className="hero-page-img-3" />
+        <img src={herop1} className="hero-page-img-3" />
         {/* <div className="hero-page-img-3"></div> */}
       </SwiperSlide>
       <SwiperSlide>
