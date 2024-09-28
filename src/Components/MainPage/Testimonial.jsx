@@ -35,7 +35,7 @@ const Testimonial = () => {
               >
                 <div className="testimonial-item text-center">
                   <div className="position-relative mb-4">
-                    <img className="img-fluid mx-auto" src={diya} alt="diya" />
+                    <img loading="lazy" className="img-fluid mx-auto" src={diya} alt="diya" />
                     <div
                       className="position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white"
                       style={{ width: "45px", height: "45px" }}
@@ -57,7 +57,7 @@ const Testimonial = () => {
                 </div>
                 <div className="testimonial-item text-center">
                   <div className="position-relative mb-4">
-                    <img className="img-fluid mx-auto" src={Kunwar} alt="kunwar" />
+                    <img loading="lazy" className="img-fluid mx-auto" src={Kunwar} alt="kunwar" />
                     <div
                       className="position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white"
                       style={{ width: "45px", height: "45px" }}
@@ -79,7 +79,7 @@ const Testimonial = () => {
                 </div>
                 <div className="testimonial-item text-center">
                   <div className="position-relative mb-4">
-                    <img className="img-fluid mx-auto" src={Tanmay} alt="tanmay" />
+                    <img loading="lazy" className="img-fluid mx-auto" src={Tanmay} alt="tanmay" />
                     <div
                       className="position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white"
                       style={{ width: "45px", height: "45px" }}
@@ -102,7 +102,7 @@ const Testimonial = () => {
                 </div>
                 <div className="testimonial-item text-center">
                   <div className="position-relative mb-4">
-                    <img className="img-fluid mx-auto" src={anirudh} alt="anirudh" />
+                    <img loading="lazy" className="img-fluid mx-auto" src={anirudh} alt="anirudh" />
                     <div
                       className="position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white"
                       style={{ width: "45px", height: "45px" }}
@@ -124,7 +124,7 @@ const Testimonial = () => {
                 </div>
                 <div className="testimonial-item text-center">
                   <div className="position-relative mb-4">
-                    <img className="img-fluid mx-auto" src={kanav} alt="kanav" />
+                    <img loading="lazy" className="img-fluid mx-auto" src={kanav} alt="kanav" />
                     <div
                       className="position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white"
                       style={{ width: "45px", height: "45px" }}

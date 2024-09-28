@@ -55,7 +55,7 @@ const OurCenter = () => {
           className="myswiper2"
         >
           <SwiperSlide className="swiper-slide-2">
-            <img alt="gurugram" src={sn1} style={{ height: "200px", marginBottom: "10px" }} />
+            <img alt="gurugram" loading="lazy" src={sn1} style={{ height: "200px", marginBottom: "10px" }} />
             <div className="col-12 h-100 d-flex flex-column">
               <div>
                 <h4 className="text-uppercase mb-3">GuruGram</h4>
@@ -77,7 +77,7 @@ const OurCenter = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide className="swiper-slide-2">
-            <img alt="spain" src={sn3} style={{ height: "200px", marginBottom: "10px" }} />
+            <img loading="lazy" alt="spain" src={sn3} style={{ height: "200px", marginBottom: "10px" }} />
             <div className="col-12 h-100 d-flex flex-column">
               <div>
                 <h4 className="text-uppercase mb-3">Spain</h4>
@@ -90,7 +90,7 @@ const OurCenter = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide className="swiper-slide-2">
-            <img alt="muzzafarnagar" src={sn4} style={{ height: "200px", marginBottom: "10px" }} />
+            <img loading="lazy" alt="muzzafarnagar" src={sn4} style={{ height: "200px", marginBottom: "10px" }} />
             <div className="col-12 h-100 d-flex flex-column">
               <div>
                 <h4 className="text-uppercase mb-3">Muzzafanagar</h4>
@@ -104,7 +104,7 @@ const OurCenter = () => {
           </SwiperSlide>
 
           <SwiperSlide className="swiper-slide-2">
-            <img alt="campus" src={campus3} style={{ height: "200px", marginBottom: "10px" }} />
+            <img loading="lazy" alt="campus" src={campus3} style={{ height: "200px", marginBottom: "10px" }} />
             <div className="col-12 h-100 d-flex flex-column">
               <div>
                 <h4 className="text-uppercase mb-3">Belagavi</h4>
@@ -118,7 +118,7 @@ const OurCenter = () => {
           </SwiperSlide>
 
           <SwiperSlide className="swiper-slide-2">
-            <img alt="campus" src={campus1} style={{ height: "200px", marginBottom: "10px" }} />
+            <img loading="lazy" alt="campus" src={campus1} style={{ height: "200px", marginBottom: "10px" }} />
             <div className="col-12 h-100 d-flex flex-column">
               <div>
                 <h4 className="text-uppercase mb-3">Mumbai</h4>

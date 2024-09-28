@@ -24,7 +24,7 @@ const OurUni = () => {
 
                     <div style={{ width: 500 + "px" }}>
                         <div className="client-logo education-logo">
-                            <img src={cli1} className="img-fluid" alt="rafa nadal academy" />
+                            <img loading='lazy' src={cli1} className="img-fluid" alt="rafa nadal academy" />
                         </div>
                     </div>
 
