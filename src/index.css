@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Poppins', 'Roboto';
+  font-display: swap;
+}
+
+
 .bg-testimonial {
   background: url(../img/testimonial.webp) top left no-repeat;
   background-size: cover;
