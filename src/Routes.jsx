@@ -77,7 +77,7 @@ const router = createBrowserRouter([
     element: <PlaceEnquire />,
   },
   {
-    path: "/TandC",
+    path: "/Terms-and-conditions",
     element: <TAC />,
   },
 
