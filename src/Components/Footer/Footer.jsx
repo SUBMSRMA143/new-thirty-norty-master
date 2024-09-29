@@ -68,7 +68,7 @@ const Footer = () => {
                   <i className="bi bi-arrow-right text-primary me-2"></i>Contact
                   Us
                 </Link>
-                <Link className="text-body" to="/T&C">
+                <Link className="text-body" to="/Terms-and-conditions">
                   <i className="bi bi-arrow-right text-primary me-2"></i>
                   Terms & Conditions
                 </Link>
