@@ -63,9 +63,9 @@ const App = () => {
           {shouldLoad && <Youtube />}
           {shouldLoad && <Instagram />}
           <Owner />
-          <Footer />
         </Suspense>
       </div>
+      <Footer />
       <ScrollRestoration />
       <FloatingWhatsApp />
     </>
