@@ -45,6 +45,9 @@ const App = () => {
       <OurUni />
       <div className="pb-5"></div>
       <SpecialOffer />
+      <Suspense>
+        <Testimonial />
+      </Suspense>
       <div onMouseOver={handlemouseover}>
         <Suspense fallback={<h3
           className="text-primary"
@@ -56,7 +59,6 @@ const App = () => {
             fontSize: "80px",
           }}
         ><LoadingOutlined /></h3>}>
-          <Testimonial />
           {shouldLoad && <News />}
           {/* <News /> */}
           {/* <LatestBlogs /> */}

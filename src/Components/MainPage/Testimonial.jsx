@@ -43,14 +43,14 @@ const Testimonial = () => {
                       <i className="bi bi-chat-square-quote text-primary"></i>
                     </div>
                   </div>
-                  <p>
+                  <span>
                     I have been training with the Thirty40 team for some years
                     now. I really like the technique & tactics the coaches here
                     teach. They have trained me to play in unconventional
                     conditions which has improved my game exponentially. I have
                     got my world ranking of 1523 under the coaching of Arnav
                     Alok Goel.
-                  </p>
+                  </span>
                   <hr className="w-25 mx-auto" />
                   <h5 className="text-uppercase">Diva Bhatia</h5>
                   <span>Player</span>
@@ -65,14 +65,14 @@ const Testimonial = () => {
                       <i className="bi bi-chat-square-quote text-primary"></i>
                     </div>
                   </div>
-                  <p>
+                  <span>
                     I am a professional tennis player & have been training in
                     Spain for the last 3 years. I have had a career high ITF
                     rank of 2689. I would like to thank hirty40 for guiding me &
                     showing me the right path. They have helped me get access to
                     the best academy possible. Anyone out there looking to go
                     big in this sport, I would say Thirty40 is your place.
-                  </p>
+                  </span>
                   <hr className="w-25 mx-auto" />
                   <h5 className="text-uppercase">Koonwar Gupta</h5>
                   <span>Player</span>
@@ -87,7 +87,7 @@ const Testimonial = () => {
                       <i className="bi bi-chat-square-quote text-primary"></i>
                     </div>
                   </div>
-                  <p>
+                  <span>
                     Bahot acha experience tha aur best tennis dekha humne waha
                     and coaching schedules world class tha aur coaches bahot
                     humble aur helpful the and tournaments khelne ko milte the
@@ -95,7 +95,7 @@ const Testimonial = () => {
                     the...friends ke saath bahot acha time spend hua and
                     confidence level bahot high ho gya waha reh kr us atmosphere
                     mei.
-                  </p>
+                  </span>
                   <hr className="w-25 mx-auto" />
                   <h5 className="text-uppercase">Tanmay Sharma</h5>
                   <span>Player</span>
@@ -110,14 +110,14 @@ const Testimonial = () => {
                       <i className="bi bi-chat-square-quote text-primary"></i>
                     </div>
                   </div>
-                  <p>
+                  <span>
                     I am a professional tennis player playing ATP/ITF and league
                     matches in Europe. I would like to thank Thirty40 for
                     helping me find a club in Germany. It was a great experience
                     & I would really recommend Thirty40 to all those looking to
                     play matches or study in Europe. They are really good at
                     what they do.
-                  </p>
+                  </span>
                   <hr className="w-25 mx-auto" />
                   <h5 className="text-uppercase">Anirudh Chandrasekhar</h5>
                   <span>Player</span>
@@ -132,7 +132,7 @@ const Testimonial = () => {
                       <i className="bi bi-chat-square-quote text-primary"></i>
                     </div>
                   </div>
-                  <p>
+                  <span>
                     I would like to thank Arnav for helping me in finding the
                     perfect tennis academy for me. The academy has all the
                     necessary facilities for a player and enough indoor and
@@ -141,7 +141,7 @@ const Testimonial = () => {
                     lot, especially my backhand. I was getting personal
                     attention every day. Also, I was able to play tournaments
                     every week which was a major benefit of coming to Germany.
-                  </p>
+                  </span>
                   <hr className="w-25 mx-auto" />
                   <h5 className="text-uppercase">Kanav Kashyap</h5>
                   <span>Player</span>
