@@ -10,20 +10,3 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <RouterProvider router={router} />
   </React.StrictMode>,
 )
-
-
-// const rootElement = document.getElementById('root');
-
-// const App = () => (
-//   <React.StrictMode>
-//     <RouterProvider router={router} />
-//   </React.StrictMode>
-// );
-
-
-// if (rootElement.hasChildNodes()) {
-//   hydrate(<App />, rootElement);
-// }
-// else {
-//   render(<App />, rootElement);
-// }

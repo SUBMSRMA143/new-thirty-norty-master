@@ -1,4 +1,4 @@
-import React from "react";
+
 import NavBar from "../NavBar/NavBar";
 import Footer from "../Footer/Footer";
 import { FloatingWhatsApp } from "react-floating-whatsapp";

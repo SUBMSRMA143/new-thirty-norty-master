@@ -1,11 +1,10 @@
-import React from "react";
 import { Link } from "react-router-dom";
 
 const SpecialOffer = () => {
   return (
     <div>
       <div
-        className="container-fluid bg-offer py-5" 
+        className="container-fluid bg-offer py-5"
         style={{ backgroundAttachment: "fixed" }}
       >
         <div className="container py-5">

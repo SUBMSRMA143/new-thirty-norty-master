@@ -1,4 +1,3 @@
-// import React from "react";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
@@ -7,7 +6,6 @@ import anirudh from '/img/anirudh.webp'
 import Kunwar from '/img/kunwar.webp'
 import kanav from '/img/kanav.webp'
 import Tanmay from '/img/tanmay.webp'
-// import sn3 from '/img/testimonial-3.jpg'
 
 const Testimonial = () => {
   return (
