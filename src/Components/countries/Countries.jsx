@@ -5,6 +5,7 @@ import img5 from "/img/g1.webp";
 // import img5 from "/img/vivek5.png";
 import Footer from "../Footer/Footer";
 import CountryService from "./countriesServices/CountryService";
+import { FloatingWhatsApp } from "react-floating-whatsapp";
 import { ScrollRestoration } from "react-router-dom";
 
 const Countries = () => {
@@ -49,6 +50,7 @@ const Countries = () => {
         /> */}
       </div>
       <Footer />
+      <FloatingWhatsApp phoneNumber="+91-7892650335" accountName="Thirty40" />
       <ScrollRestoration />
     </>
   );

@@ -2,7 +2,7 @@ import React from "react";
 
 const CC1 = () => {
   return (
-    <div className="pt-5">
+    <div className="pt-0">
       <div className="container-fluid pt-5">
         <div className="container">
           <div

@@ -3,6 +3,7 @@ import "./Countries.css";
 import NavBar from "../NavBar/NavBar";
 import img4 from "/img/g2.webp";
 import Footer from "../Footer/Footer";
+import { FloatingWhatsApp } from "react-floating-whatsapp";
 import { ScrollRestoration } from "react-router-dom";
 import OurCenter from "../MainPage/OurCenter";
 
@@ -67,7 +68,9 @@ const India = () => {
         </div>
       </div>
       <OurCenter />
+      <div className="pb-5"></div>
       <Footer />
+      <FloatingWhatsApp phoneNumber="+91-7892650335" accountName="Thirty40" />
       <ScrollRestoration />
     </>
   );

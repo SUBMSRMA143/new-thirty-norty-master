@@ -85,7 +85,7 @@ const App = () => {
       </div>
       <Footer />
       <ScrollRestoration />
-      <FloatingWhatsApp phoneNumber="+91 96826 39541" accountName="Shubham Parashar" />
+      <FloatingWhatsApp phoneNumber="+91-7892650335" accountName="Thirty40" />
     </>
   );
 };

@@ -12,7 +12,7 @@ const ServicesPage = () => {
       <div className='p-5'></div>
       <Services />
       <Footer />
-      <FloatingWhatsApp phoneNumber="+91 96826 39541" accountName="Shubham Parashar" />
+      <FloatingWhatsApp phoneNumber="+91-7892650335" accountName="Thirty40" />
       <ScrollRestoration />
     </>
   )
