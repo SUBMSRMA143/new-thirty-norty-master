@@ -18,12 +18,30 @@ const Footer = lazy(() => import("./Components/Footer/Footer"));
 const Owner = lazy(() => import("./Components/MainPage/Owner"));
 
 const App = () => {
+  // const [data, setData] = useState([]);
+  const [isLargeData, setIsLargeData] = useState(false);
   const [display, setDisplay] = useState(false);
   const [shouldLoad, setShouldLoad] = useState(false);
   useEffect(() => {
-    setTimeout(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch("https://cgc-seller-server.vercel.app/api/products");
+        const result = await response.json();
+        // setData(result);
+        setIsLargeData(result.length > 5);
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      }
+    };
+
+    fetchData();
+
+
+    const timer = setTimeout(() => {
       setDisplay(true);
     }, 2000);
+
+    return () => clearTimeout(timer);
   }, []);
 
   const handlemouseover = () => {
@@ -39,9 +57,9 @@ const App = () => {
         </Suspense>)}
       <NavBar />
       {/* <NavBar page={`${pageURL}`} /> */}
-      <HeroPage />
-      <Services />
-      <OurCenter />
+      {isLargeData ? <div style={{ height: "100vh", backgroundColor: "white" }}></div> : <HeroPage />}
+      {isLargeData && <Services />}
+      {isLargeData && <OurCenter />}
       <OurUni />
       <div className="pb-5"></div>
       <SpecialOffer />
