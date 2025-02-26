@@ -8,12 +8,12 @@ import NavBar from '../NavBar/NavBar'
 const EnquireNow = () => {
   return (
     <div>
-        <NavBar page={"EnquireNow"}/>
-        <div className='pt-5' ></div>
-        <EnquireNowPage/>
-        <Footer/>
-        <FloatingWhatsApp/>
-        <ScrollRestoration/>
+      <NavBar page={"EnquireNow"} />
+      <div className='pt-5' ></div>
+      <EnquireNowPage />
+      <Footer />
+      <FloatingWhatsApp phoneNumber="+91 96826 39541" accountName="Shubham Parashar" />
+      <ScrollRestoration />
     </div>
   )
 }

@@ -101,8 +101,7 @@ const V5 = () => {
           </section>
         </div>
       </div>
-
-      <FloatingWhatsApp />
+      <FloatingWhatsApp phoneNumber="+91 96826 39541" accountName="Shubham Parashar" />
       <ScrollRestoration />
       <Footer />
     </>

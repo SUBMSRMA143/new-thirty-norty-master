@@ -12,7 +12,7 @@ const V2 = () => {
       <NavBar page={"Register-For-Tennis-and-Education"} />
       <EnquirePageForm campus={"spain"} />
       <Footer />
-      <FloatingWhatsApp />
+      <FloatingWhatsApp phoneNumber="+91 96826 39541" accountName="Shubham Parashar" />
       <ScrollRestoration />
     </div>
   )

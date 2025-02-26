@@ -46,7 +46,7 @@ const AboutUs = () => {
       </div>
       <div className="pb-5"></div>
       <Footer />
-      <FloatingWhatsApp />
+      <FloatingWhatsApp phoneNumber="+91 96826 39541" accountName="Shubham Parashar" />
       <ScrollRestoration />
     </div>
   );

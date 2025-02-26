@@ -8,12 +8,12 @@ import Services from '../MainPage/Services'
 const ServicesPage = () => {
   return (
     <>
-        <NavBar/>
-        <div className='p-5'></div>
-        <Services/>
-        <Footer/>
-        <FloatingWhatsApp/>
-        <ScrollRestoration/>
+      <NavBar />
+      <div className='p-5'></div>
+      <Services />
+      <Footer />
+      <FloatingWhatsApp phoneNumber="+91 96826 39541" accountName="Shubham Parashar" />
+      <ScrollRestoration />
     </>
   )
 }

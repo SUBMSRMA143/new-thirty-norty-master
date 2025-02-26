@@ -24,7 +24,7 @@ const V1 = () => {
         <Owner />
         <Footer />
       </Suspense>
-      <FloatingWhatsApp />
+      <FloatingWhatsApp phoneNumber="+91 96826 39541" accountName="Shubham Parashar" />
       <ScrollRestoration />
     </>
   )
