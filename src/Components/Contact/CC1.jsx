@@ -3,10 +3,10 @@ import React from "react";
 const CC1 = () => {
   return (
     <div className="pt-0">
-      <div className="container-fluid pt-5">
+      <div className="container-fluid pt-4">
         <div className="container">
           <div
-            className="border-start border-5 border-primary ps-5 mb-5"
+            className="border-start border-5 border-primary ps-5 mb-3"
             style={{ maxWidth: 600 + "px" }}
           >
             <h6 className="text-primary text-uppercase">Contact Us</h6>
@@ -17,7 +17,7 @@ const CC1 = () => {
           <div className="row g-5">
             <div className="col-lg-7">
               <form>
-                <div className="row g-3">
+                <div className="row g-2">
                   <div className="col-12">
                     <input
                       type="text"
@@ -61,7 +61,7 @@ const CC1 = () => {
               </form>
             </div>
             <div className="col-lg-5">
-              <div className="bg-light mb-5 p-5">
+              <div className="bg-light mb-5 p-4">
                 <div className="d-flex align-items-center mb-2">
                   <i className="bi bi-geo-alt fs-1 text-primary me-3"></i>
                   <div className="text-start">
