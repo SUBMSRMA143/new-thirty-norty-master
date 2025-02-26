@@ -1,6 +1,6 @@
 import React from "react";
 import arnaavProfile from '/img/owner.webp'
-import './Owner.css'
+import './Owner'
 
 const Owner = () => {
   return (
