@@ -21,27 +21,26 @@ const India = lazy(() => import("./Components/countries/India"));
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: <App />
   },
   {
     path: "/AboutUs",
-
     element: (
       <Suspense fallback={<h3>Content Loading...</h3>}>
-        <AboutUs />,
+        <AboutUs />
       </Suspense>
     )
   },
   {
     path: "/Services",
-    element: <ServicesPage />,
+    element: <ServicesPage />
   },
   {
     path: "/ContactUs",
 
     element: (
       <Suspense fallback={<h3>Content Loading...</h3>}>
-        <ContactUs />,
+        <ContactUs />
       </Suspense>
     )
   },
@@ -56,11 +55,11 @@ const router = createBrowserRouter([
 
   {
     path: "/EnquireNow/:id",
-    element: <PlaceEnquire />,
+    element: <PlaceEnquire />
   },
   {
     path: "/Terms-and-conditions",
-    element: <TAC />,
+    element: <TAC />
   },
 
   //////////Blogs Pages//////////////////
@@ -74,7 +73,7 @@ const router = createBrowserRouter([
 
     element: (
       <Suspense fallback={<h3>Content Loading...</h3>}>
-        <USA />,
+        <USA />
       </Suspense>
     )
   },
@@ -83,7 +82,7 @@ const router = createBrowserRouter([
 
     element: (
       <Suspense fallback={<h3>Content Loading...</h3>}>
-        <Europe />,
+        <Europe />
       </Suspense>
     )
   },
@@ -92,43 +91,43 @@ const router = createBrowserRouter([
 
     element: (
       <Suspense fallback={<h3>Content Loading...</h3>}>
-        <India />,
+        <India />
       </Suspense>
     )
   },
   {
     path: "/Global",
-    element: <Countries />,
+    element: <Countries />
   },
   ////////////Services Pages///////////////
 
   {
     path: "/services/Join-Our-Academy",
-    element: <V1 />,
+    element: <V1 />
   },
 
   {
     path: "/services/Register-For-Tennis-and-Education",
-    element: <V2 />,
+    element: <V2 />
   },
 
   {
     path: "/services/Scholarship-in-USA-and-Europe",
-    element: <V3 />,
+    element: <V3 />
   },
 
   {
     path: "/services/Tennis-Camp-in-Spain",
-    element: <V4 />,
+    element: <V4 />
   },
 
   {
     path: "/services/Career-Counseling",
-    element: <V5 />,
+    element: <V5 />
   },
   {
     path: "/services/Book-a-course",
-    element: <V6 />,
+    element: <V6 />
   },
 ]);
 
