@@ -58,8 +58,8 @@ const App = () => {
       <NavBar />
       {/* <NavBar page={`${pageURL}`} /> */}
       {isLargeData ? <div style={{ height: "100vh", backgroundColor: "white" }}></div> : <HeroPage />}
-      {isLargeData && <Services />}
-      {isLargeData && <OurCenter />}
+      {isLargeData ? <div style={{ height: "100vh", backgroundColor: "white" }}></div> : <Services />}
+      {isLargeData ? <div style={{ height: "100vh", backgroundColor: "white" }}></div> : <OurCenter />}
       <OurUni />
       <div className="pb-5"></div>
       <SpecialOffer />
